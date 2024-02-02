@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Merriweather);
-
+/* Icon Styles */
 .icon img {
   width: 3rem;
   height: auto;
@@ -8,14 +8,14 @@
   width: 3rem;
   height: auto;
 }
-
+/* Reset Styles */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-
+/* Contact Section Styles */
 .contact {
   position: relative;
   min-height: 100hv;
@@ -153,7 +153,7 @@
 .h2 {
   color: #ffc107;
 }
-
+/* Footer Section Styles */
 footer {
   background-color: #0d1010;
   color: #ffc107;
@@ -171,7 +171,7 @@ footer {
   font-weight: 600;
   font-size: 3rem;
 }
-
+/* Navigation Link Hover Styles */
 /* policies, terms of service and contact */
 .footer_clickable:hover {
   color: #ffc107;
@@ -193,7 +193,7 @@ footer {
   margin-right: 15px;
   font-size: 2.2rem;
 }
-
+/* Additional Styles */
 .contactRow,
 .addressRow {
   width: 97%;
@@ -215,7 +215,7 @@ footer a {
 }
 
 /************************ Shopping Cart CSS ********************/
-
+/* Shopping Cart Styles */
 .modal-body {
   padding: 0;
 }
@@ -350,7 +350,7 @@ footer a {
 *::-webkit-scrollbar {
   width: 15px;
 }
-
+/* Scrollbar Styles */
 *::-webkit-scrollbar-track {
   background: white;
 }
@@ -359,7 +359,7 @@ footer a {
   background-color: black;
   border: 1px solid white;
 }
-
+/* Responsive Styles */
 @media screen and (max-width: 992px) {
   .navbar-nav {
     background-color: #ffc107;
@@ -536,7 +536,7 @@ footer a {
   }
 }
 
-/* checkout icons */
+/* checkout icons style*/
 .checkIcon {
   color: green;
 }
